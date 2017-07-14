@@ -3,8 +3,13 @@
 using namespace std;
 
 int main() {
-
+	int unkoN = 100;
+	
 	cout << "Hello,Unko!!" << endl;
-	std::cout << "Hello, Geri" << std::endl;
+	cout << "Hello, Geri" << endl;
+
+	cout << "My unko Num : " << unkoN << endl;
+
+
 	return 0;
 }
