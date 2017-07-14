@@ -2,7 +2,13 @@
 #include <cstdlib>
 
 int main() {
-	std::cout << "Hello,Unko!!" << std::endl;
+	int unkoN = 100;
+	
+	std::cout << "Hello, Unko!!" << std::endl;
 	std::cout << "Hello, Geri" << std::endl;
+
+	cout << "My unko Num : " << unkoN << endl;
+
 	return EXIT_SUCCESS;
+
 }
