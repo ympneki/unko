@@ -1,15 +1,14 @@
 #include <iostream>
-
-using namespace std;
+#include <cstdlib>
 
 int main() {
 	int unkoN = 100;
 	
-	cout << "Hello,Unko!!" << endl;
-	cout << "Hello, Geri" << endl;
+	std::cout << "Hello, Unko!!" << std::endl;
+	std::cout << "Hello, Geri" << std::endl;
 
 	cout << "My unko Num : " << unkoN << endl;
 
+	return EXIT_SUCCESS;
 
-	return 0;
 }
